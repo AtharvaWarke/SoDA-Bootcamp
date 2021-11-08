@@ -1,4 +1,4 @@
-const GITHUB_USERNAME = "YasserDbeis"
+const GITHUB_USERNAME = "AtharvaWarke"
 fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`).then(response => response.json()).then(repos => {
     for(const repo of repos){
         const repoName = repo.name
